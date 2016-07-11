@@ -68,7 +68,7 @@ class Obfuscation
         return $randomString;
     }
 }
-
-echo '<pre>';
-var_dump(Obfuscation::obfuscate(file_get_contents(__FILE__)));
-echo '</pre>';
+?>
+<?='<texta'.'rea>';?>
+<?=Obfuscation::obfuscate(file_get_contents(__FILE__));?>
+<?='</texta'.'rea>';?>
